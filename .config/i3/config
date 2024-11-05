@@ -133,5 +133,7 @@ client.background       #ffffff
 # Configure touchpad
 exec --no-startup-id ~/.config/i3/touchpad.sh
 
-# test
+# Current time popup
 bindsym $mod+Shift+t exec notify-send "Current time" "$(date '+%H:%M:%S')"
+
+exec_always --no-startup-id feh --bg-scale ~/Pictures/windowsxp.png 
